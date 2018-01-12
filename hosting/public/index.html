@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Page from Node Server</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+<body ng-app="myapp">
+	<div ng-controller = "HomeController"> 
+		<h1>{{title}}</h1>
+	</div>
+   
+
+   <script>
+   		var app=angular.module("myapp",[]);
+   </script>
+
+   <script src="assets/js/controllers/HomeController.js"></script>
+
+</body>
+</html>
